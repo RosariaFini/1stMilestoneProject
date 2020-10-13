@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sacramento');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap|Open+Sans:wght@300');
 
 /*-----------------------------------Heading*/
 
@@ -6,25 +6,53 @@
     font-family: 'Sacramento', cursive;
     font-size: 2rem; }
 
+.navbar{
+    padding: 1.5rem 1.5rem;
+}
 
 
-@media(min-width: 992px) {
+ .nav-item{
+     font-family: 'Open Sans', sans-serif;
+     font-weight:300;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size:14px;
+     
+ }
+ .dropdown-item{
+     font-family: 'Open Sans', sans-serif;
+     font-weight:300;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size:14px;
+     
+ }
+/*-----------------------------------Buttons*/
+ .btn--cta{
+     font-family: 'Open Sans', sans-serif;     
+     font-weight: bold;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size:14px;
+     border: 1px solid;
+     border-radius: 23px;
+     padding:0.5rem 1rem;
+     
+
+ }
+
+/*-------------------------------------Media Queries*/
+ @media(min-width:576px){
 .navbar-brand{
     font-size: 2.5rem;
-    margin-right:4rem;
+    margin-right:2rem;
 }
     
 
 .navbar{
-    padding-left: 3rem;
+    padding-left: 4rem;
     padding-right:3rem;
     padding-top:3rem;
 }
-.navbar-expand-sm .navbar-nav .nav-link {
-    padding-right: 3rem;
-}
-.navbar-expand-sm .navbar-nav .nav-link {
-    padding-right: 2rem;
-}
 
-}
+ }
