@@ -41,6 +41,63 @@
 
  }
 
+ 
+
+
+
+ /*-------------------------------------Footer*/
+
+ footer{
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ .inline-block{
+     display: inline-block;
+     position: relative;
+ }
+
+ 
+#footer-details {
+    padding:30px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.general-sub{
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+div .classes{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:#fafafa;
+}
+
+
+/*-------------------------------------Newsletter*/
+
+ .relative{
+     position:relative;
+     display: inline-flex;
+ }
+
+ button[name="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
 /*-------------------------------------Media Queries*/
  @media(min-width:576px){
 .navbar-brand{
