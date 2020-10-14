@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap|Open+Sans:wght@300');
 
+
+/*-------------------------------------Special paddings/margins/text*/
+
+h5{
+    padding-top:2rem;
+}
+
+p{
+    line-height: 2rem;
+}
+
+
+
 /*-----------------------------------Heading*/
 
 .navbar-brand{
@@ -28,19 +41,36 @@
      
  }
 /*-----------------------------------Buttons*/
- .btn--cta{
+ .btn-outline-dark{
      font-family: 'Open Sans', sans-serif;     
      font-weight: bold;
      text-transform: uppercase;
      letter-spacing: 1px;
      font-size:14px;
-     border: 1px solid;
+     border:1px solid;
      border-radius: 23px;
      padding:0.5rem 1rem;
-     
-
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
  }
 
+ 
+
+.btn .fa-paper-plane{
+    color: #fafafa;
+    font-size: 25px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    
+}
+
+.btn .fa-paper-plane:hover{
+    color:teal;
+}
  
 
 
@@ -62,7 +92,7 @@
 
  
 #footer-details {
-    padding:30px;
+    padding:40px;
 }
 
 .uppercase{
@@ -71,17 +101,60 @@
 
 .general-sub{
     font-family: 'Open Sans', sans-serif; 
-    font-weight: 300;
+    font-weight: 200;
     letter-spacing: 1px;
     font-size: 1.2rem;
+    padding-bottom: 1rem;
 }
 
-div .classes{
-    text-decoration: none;
-    text-transform: uppercase;
+
+  .classes{
+    line-height: 2rem;
     letter-spacing: 1px;
     color:#fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
+
+.classes:hover{
+    color:teal;
+}
+
+.social-links li a i {
+    width:32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size:30px;
+    line-height: 7px;
+    color:#fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover{
+    color: teal;
+}
+
+
+
+.contact-icons{
+    color: #fafafa;
+    font-size:20px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.contact-icons:hover{
+    color:teal;
+}
+
+
 
 
 /*-------------------------------------Newsletter*/
@@ -111,5 +184,7 @@ div .classes{
     padding-right:3rem;
     padding-top:3rem;
 }
+
+
 
  }
