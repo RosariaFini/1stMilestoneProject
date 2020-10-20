@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap|Open+Sans:wght@300');
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap|Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
 
 
 /*-------------------------------------Special paddings/margins/text*/
@@ -11,21 +11,28 @@ p{
     line-height: 2rem;
 }
 
+body{
+    font-family: 'Lato', sans-serif;
+}
 
 
-/*-----------------------------------Heading*/
+/*-----------------------------------Navbar*/
 
 .navbar-brand{
-    font-family: 'Sacramento', cursive;
-    font-size: 2rem; }
+    font-family: 'Megrim', cursive;
+    font-size: 1.5rem;
+    
+     }
 
 .navbar{
     padding: 1.5rem 1.5rem;
+    
+
 }
 
 
  .nav-item{
-     font-family: 'Open Sans', sans-serif;
+     font-family: 'Lato', sans-serif;
      font-weight:300;
      text-transform: uppercase;
      letter-spacing: 1px;
@@ -33,7 +40,7 @@ p{
      
  }
  .dropdown-item{
-     font-family: 'Open Sans', sans-serif;
+     font-family: 'Lato', sans-serif;
      font-weight:300;
      text-transform: uppercase;
      letter-spacing: 1px;
@@ -42,7 +49,7 @@ p{
  }
 /*-----------------------------------Buttons*/
  .btn-outline-dark{
-     font-family: 'Open Sans', sans-serif;     
+     font-family: 'Lato', sans-serif;     
      font-weight: bold;
      text-transform: uppercase;
      letter-spacing: 1px;
@@ -69,10 +76,59 @@ p{
 }
 
 .btn .fa-paper-plane:hover{
-    color:teal;
+    color:orange;
 }
  
+ .btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
 
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+/*-------------------------------------Containers*/
+.callout-container {
+    height: 100vh;
+    background: url('../images/image-sam.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/*-------------------------------------Jumbotron*/
+.jumbotron{
+    background-color: transparent;
+}
+
+.jumbotron h4{
+    margin-bottom: 2rem;
+    font-size:1.5rem;
+    color:#525252;
+}
+.jumbotron h2{
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    color:#525252;
+    font-weight: 300;
+}
 
 
  /*-------------------------------------Footer*/
@@ -82,7 +138,7 @@ p{
     color: #fafafa;
     min-height: 120px;
     margin:0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
  .inline-block{
@@ -100,7 +156,7 @@ p{
 }
 
 .general-sub{
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Lato', sans-serif; 
     font-weight: 200;
     letter-spacing: 1px;
     font-size: 1.2rem;
@@ -119,7 +175,7 @@ p{
 }
 
 .classes:hover{
-    color:teal;
+    color: orange;
 }
 
 .social-links li a i {
@@ -137,7 +193,7 @@ p{
 }
 
 .social-links li a i:hover{
-    color: teal;
+    color: orange;
 }
 
 
@@ -151,7 +207,7 @@ p{
     -o-transition: all 0.35s ease-in-out;
 }
 .contact-icons:hover{
-    color:teal;
+    color:orange;
 }
 
 
@@ -185,6 +241,12 @@ p{
     padding-top:3rem;
 }
 
-
+.jumbotron h2{
+    font-size:3.2rem;
+    letter-spacing: 1px;
+}
+.jumbotron h4{
+    font-size:1.8rem;
+}
 
  }
