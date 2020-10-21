@@ -27,6 +27,7 @@ body{
 .navbar{
     padding: 1.5rem 1.5rem;
     
+    
 
 }
 
@@ -100,6 +101,9 @@ body{
     color: white;
 }
 /*-------------------------------------Containers*/
+
+.container-wrapper{}
+
 .callout-container {
     height: 100vh;
     background: url('../images/image-sam.jpg')no-repeat center center fixed;
@@ -113,9 +117,18 @@ body{
     position: relative;
 }
 
+
+/*-------------------------------------Content-Containers*/
+.content-container{
+    padding-top:75px;
+    padding-bottom: 75px;
+}
+
+
 /*-------------------------------------Jumbotron*/
 .jumbotron{
-    background-color: transparent;
+    background-color: rgba(255,255,255,0.6);
+    padding: 0.5rem 0.5rem;
 }
 
 .jumbotron h4{
@@ -124,13 +137,23 @@ body{
     color:#525252;
 }
 .jumbotron h2{
-    margin-top: 2rem;
     margin-bottom: 2.5rem;
     color:#525252;
-    font-weight: 300;
+    font-weight: bold;
 }
 
+/*-------------------------------------Features*/
+.features{
+    margin-bottom:40px;
+}
 
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+    display:inline-block;
+    
+}
  /*-------------------------------------Footer*/
 
  footer{
@@ -239,14 +262,20 @@ body{
     padding-left: 4rem;
     padding-right:3rem;
     padding-top:3rem;
+    
 }
 
 .jumbotron h2{
     font-size:3.2rem;
     letter-spacing: 1px;
+    
 }
 .jumbotron h4{
     font-size:1.8rem;
 }
 
+
  }
+
+
+ 
