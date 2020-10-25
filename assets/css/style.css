@@ -3,16 +3,40 @@
 
 /*-------------------------------------Special paddings/margins/text*/
 
-h5{
+ h5{
     padding-top:2rem;
 }
 
-p{
-    line-height: 2rem;
+h3{
+    padding-top:2rem;
+    padding-bottom:0.5rem;
+    font-size: 1.25rem;
+
 }
+
+ .feature p{
+   line-height: 2rem;
+   max-width:20rem;
+
+}
+    
+    
+    
+
+
 
 body{
     font-family: 'Lato', sans-serif;
+    
+}
+
+.grey{
+    color:#525252;
+    letter-spacing: 2px;
+}
+
+.light{
+    color: #a4a2a2;
 }
 
 
@@ -77,7 +101,7 @@ body{
 }
 
 .btn .fa-paper-plane:hover{
-    color:orange;
+    color:rgb(169,169,169);
 }
  
  .btn--cta {
@@ -102,7 +126,10 @@ body{
 }
 /*-------------------------------------Containers*/
 
-.container-wrapper{}
+.container-wrapper{
+    margin-left:3.5rem;
+    margin-right:3.5rem;
+}
 
 .callout-container {
     height: 100vh;
@@ -121,7 +148,7 @@ body{
 /*-------------------------------------Content-Containers*/
 .content-container{
     padding-top:75px;
-    padding-bottom: 75px;
+    
 }
 
 
@@ -198,8 +225,10 @@ body{
 }
 
 .classes:hover{
-    color: orange;
+    color: rgb(169,169,169);
 }
+
+/*-------------------------------------Icons*/
 
 .social-links li a i {
     width:32px;
@@ -216,7 +245,7 @@ body{
 }
 
 .social-links li a i:hover{
-    color: orange;
+    color:rgb(169,169,169);
 }
 
 
@@ -230,7 +259,7 @@ body{
     -o-transition: all 0.35s ease-in-out;
 }
 .contact-icons:hover{
-    color:orange;
+    color:rgb(169,169,169);
 }
 
 
@@ -247,6 +276,32 @@ body{
   position: absolute;
   top: 0;
   right: 0;
+}
+
+
+ /*-----------------------------------Hover.css*/
+ .hvr-icon-grow{
+      width:80px;
+    height: 80px;
+    padding: 16px 13px;
+    border-radius: 50%;
+    background-color: #f05f40;
+     color:#fff;
+     display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+ }
+
+.hvr-icon-grow:hover,
+.hvr-icon-grow:focus,
+.hvr-icon-grow:active {
+    transform: scale(1.1);
+    color:#fff;
 }
 
 
@@ -278,4 +333,4 @@ body{
  }
 
 
- 
+
