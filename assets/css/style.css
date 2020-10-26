@@ -145,16 +145,29 @@ body{
 }
 
 
-/*-------------------------------------Content-Containers*/
 .content-container{
     padding-top:75px;
     
 }
 
+.options-container{
+    height:150vh;
+    background: url('../images/image-opt.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
 
 /*-------------------------------------Jumbotron*/
 .jumbotron{
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(255,255,255,0.5);
     padding: 0.5rem 0.5rem;
 }
 
@@ -169,6 +182,8 @@ body{
     font-weight: bold;
 }
 
+
+
 /*-------------------------------------Features*/
 .features{
     margin-bottom:40px;
@@ -181,6 +196,15 @@ body{
     display:inline-block;
     
 }
+
+/*-------------------------------------Options*/
+.options-container p{
+    color:#525252;
+    font-size:20px;
+}
+
+
+
  /*-------------------------------------Footer*/
 
  footer{
@@ -329,8 +353,36 @@ body{
     font-size:1.8rem;
 }
 
+.options-container p{
+    font-size:25px;
+    
+}
+
 
  }
 
 
+@media (min-height: 768px){
+  .options-container{
+      height: 100vh;
+  }  
+}
 
+@media (min-height: 576px){
+  .options-container{
+      height: 100vh;
+  }  
+}
+
+
+@media (min-height: 992px){
+    .options-container{
+        height: 60vh;
+    }
+}
+
+@media (min-height: 1200px){
+    .options-container{
+        height: 60vh;
+    }
+}
