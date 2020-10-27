@@ -3,6 +3,13 @@
 
 /*-------------------------------------Special paddings/margins/text*/
 
+h1{
+    font-size: 1.30rem;
+    color:#525252;
+    letter-spacing: 1px;
+
+}
+
  h5{
     padding-top:2rem;
 }
@@ -19,8 +26,14 @@ h3{
    max-width:20rem;
 
 }
+
+.online p{
+    line-height: 2rem;
+}
     
-    
+.explore h1{
+    font-size:2rem;
+}
     
 
 
@@ -46,6 +59,7 @@ body{
     font-family: 'Megrim', cursive;
     font-size: 1.5rem;
     
+    
      }
 
 .navbar{
@@ -63,6 +77,7 @@ body{
      letter-spacing: 1px;
      font-size:14px;
      
+     
  }
  .dropdown-item{
      font-family: 'Lato', sans-serif;
@@ -71,7 +86,21 @@ body{
      letter-spacing: 1px;
      font-size:14px;
      
+     
  }
+
+ /* ---------------------------------Block dividers */
+ .block-divider {
+    width: 80px;
+    height: 5px;
+    border: 0;
+
+}
+
+.block-divider--orange {
+    background-color: #f05f40;
+}
+
 /*-----------------------------------Buttons*/
  .btn-outline-dark{
      font-family: 'Lato', sans-serif;     
@@ -132,7 +161,7 @@ body{
 }
 
 .callout-container {
-    height: 100vh;
+    height: 120vh;
     background: url('../images/image-sam.jpg')no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -151,7 +180,7 @@ body{
 }
 
 .options-container{
-    height:150vh;
+    height:160vh;
     background: url('../images/image-opt.jpg')no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -162,6 +191,23 @@ body{
     justify-content: center;
     position: relative;
 
+}
+
+.online-container{
+    padding:55px;
+}
+
+.explore-container {
+    height: 100vh;
+    background: url('../images/image-exp.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 
@@ -202,6 +248,7 @@ body{
     color:#525252;
     font-size:20px;
 }
+
 
 
 
@@ -344,34 +391,49 @@ body{
     
 }
 
-.jumbotron h2{
-    font-size:3.2rem;
-    letter-spacing: 1px;
-    
-}
-.jumbotron h4{
-    font-size:1.8rem;
-}
 
 .options-container p{
     font-size:25px;
     
 }
 
+.explore h1{
+    font-size:3rem;
+}
+    
 
  }
 
+@media(min-width:768px){
+    .jumbotron h2{
+      font-size: 3.2rem;
+    }
+    .jumbotron h4{
+        font-size:1.8rem;
+    }
+    
+}
 
 @media (min-height: 768px){
   .options-container{
       height: 100vh;
   }  
+  .explore-container{
+      height: 100vh;
+  }
+  .callout-container{
+      height: 100vh;
+  }
 }
+
 
 @media (min-height: 576px){
   .options-container{
       height: 100vh;
   }  
+  .callout-container{
+      height: 100vh;
+  }
 }
 
 
@@ -379,10 +441,23 @@ body{
     .options-container{
         height: 60vh;
     }
+    .explore-container{
+      height: 60vh;
+  }
+    .callout-container{
+      height: 100vh;
+  }
 }
 
 @media (min-height: 1200px){
     .options-container{
         height: 60vh;
     }
+    .explore-container{
+      height: 60vh;
+  }
+    .callout-container{
+      height: 100vh;
+  }
 }
+
