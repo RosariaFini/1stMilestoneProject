@@ -60,7 +60,20 @@ body{
 }
 
 
+.padded .top h1{
+         padding-top:2.5rem;
+         padding-bottom: 1rem;
+     }
 
+.padded h1{
+    padding-bottom: 1rem;
+}
+
+.table td, .table th {
+    padding: 0.5rem;
+    }
+
+ 
 
 
 /*-----------------------------------Navbar*/
@@ -222,7 +235,7 @@ body{
 }
 
 .contact-container{
-    height: 25vh;
+    height: 30vh;
     background: url('../images/image-man.jpg')no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -236,7 +249,6 @@ body{
 }
 
 .form-container{
-    height:100vh;
     padding:2rem;
 }
 /*-------------------------------------Jumbotron*/
@@ -361,6 +373,19 @@ body{
     color:rgb(169,169,169);
 }
 
+.info-icons{
+    color: #f05f40;
+    font-size: 20px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.info-icons:hover{
+    color:#df4929;
+}
+
 
 
 
@@ -443,6 +468,8 @@ body{
     .jumbotron h4{
         font-size:1.8rem;
     }
+
+    
     
 
 
@@ -469,6 +496,7 @@ body{
   .callout-container{
       height: 100vh;
   }
+  
 }
 
 
@@ -482,6 +510,9 @@ body{
     .callout-container{
       height: 100vh;
   }
+
+   
+  
 }
 
 @media (min-height: 1200px){
@@ -494,7 +525,15 @@ body{
     .callout-container{
       height: 100vh;
   }
-}
+    
+    
+  
+  }
+   
+   
+  
+  
+
 
 @media(min-width:576px){
     .contact h1{
@@ -502,6 +541,7 @@ body{
     letter-spacing: 2px;
     font-size: 3rem;
   }
+  
 }
 
  @media(max-width:767px){
@@ -509,3 +549,13 @@ body{
          padding-top:2.5rem;
      }
  }
+
+
+
+
+
+
+
+
+
+
