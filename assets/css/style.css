@@ -52,6 +52,16 @@ body{
     color: #a4a2a2;
 }
 
+.contact h1{
+    color:#525252;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    margin-top:1rem;
+}
+
+
+
+
 
 /*-----------------------------------Navbar*/
 
@@ -211,7 +221,24 @@ body{
     position: relative;
 }
 
+.contact-container{
+    height: 25vh;
+    background: url('../images/image-man.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
 
+.form-container{
+    height:100vh;
+    padding:2rem;
+}
 /*-------------------------------------Jumbotron*/
 .jumbotron{
     background-color: rgba(255,255,255,0.5);
@@ -431,6 +458,7 @@ body{
   .callout-container{
       height: 100vh;
   }
+  
 }
 
 
@@ -468,3 +496,16 @@ body{
   }
 }
 
+@media(min-width:576px){
+    .contact h1{
+    color:#525252;
+    letter-spacing: 2px;
+    font-size: 3rem;
+  }
+}
+
+ @media(max-width:767px){
+     .padded h1{
+         padding-top:2.5rem;
+     }
+ }
