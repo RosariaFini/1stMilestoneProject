@@ -620,7 +620,7 @@ body{
 
 @media (min-width: 768px){
     .table-responsive{
-        max-width:90%;
+        max-width:100%;
         
 
      }
