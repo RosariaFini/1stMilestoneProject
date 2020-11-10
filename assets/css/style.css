@@ -618,13 +618,9 @@ body{
      }
  }
 
-@media (min-width: 768px){
-    .table-responsive{
-        max-width:100%;
-        
 
-     }
-}
+
+
 
 
 
