@@ -63,7 +63,7 @@ body{
 }
 
 .light{
-    color: #a4a2a2;
+    color:#666666;
 }
 
 .contact h1{
@@ -332,7 +332,7 @@ body{
 
 /*-------------------------------------Jumbotron*/
 .jumbotron{
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.8);
     padding: 0.5rem 0.5rem;
 }
 
