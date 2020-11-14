@@ -503,7 +503,6 @@ body{
     backface-visibility: hidden;
     -moz-osx-font-smoothing: grayscale;
     transition-duration: 0.3s;
-    transition-property: transform;
  }
 
 .hvr-icon-grow:hover,
