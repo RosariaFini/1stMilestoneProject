@@ -29,6 +29,8 @@ This section provide an insight into the UX process. The target audience for DY 
 
 * As user, I want to see a simple, visual appealing website with catchy calls to action that help me to  discover more about the product I am interested in.
 
+* As user, I want to know which benefits I will get by buying a product, so I can be satisfied with my choice.
+
 * As user, I want to know how approachable and inclusive is the community I wish to join so I can learn a new discipline from scratch, regardless of my previous experience of age without feeling judged by teacher and fellow members.
 
 * As user, I want to find a feature that allow me to learn Yoga at my own pace and from anywhere, so it can fit better in my lifestyle.
@@ -46,3 +48,23 @@ This section provide an insight into the UX process. The target audience for DY 
 ### Homepage 
 
 * Homepage - Web Browser -> [View PDF](PDF/home-webbrowser.pdf)
+
+* Homepage - Tablet -> [View PDF](PDF/home-tablet.pdf)
+
+* Homepage - Smartphone -> [View PDF](PDF/home-smartphone.pdf)
+
+### Contact Page 
+
+* Contact Page - Web Browser -> [View PDF](PDF/cont-webbrowser.pdf)
+
+* Contact Page - Tablet -> [View PDF](PDF/cont-tablet.pdf)
+
+* Contact Page - Smartphone -> [View PDF](PDF/cont-smartphone.pdf)
+
+### Timetable Page 
+
+* Timetable Page - Web Browser -> [View PDF](PDF/time-webbrowser.pdf)
+
+* Timetable Page - Tablet -> [View PDF](PDF/time-tablet.pdf)
+
+* Timetable Page - Smartphone -> [View PDF](PDF/time-smartphone.pdf)
