@@ -136,3 +136,9 @@ This section provide an insight into the UX process. The target audience for DY 
     * Google Chrome and Chrome Dev Tools was used to help create my project as well as testing it as well.
 
 # Validation
+
+In this section I will be showing the validation techniques used in order to make my project compliant. I have used the W3C HTML5 and CSS3 online validation tools.
+
+HTML5 Validation -> [Visit Site]( https://validator.w3.org/)
+
+CSS3 Validation -> [Visit Site]( https://jigsaw.w3.org/css-validator/)
