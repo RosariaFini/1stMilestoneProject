@@ -137,8 +137,11 @@ This section provide an insight into the UX process. The target audience for DY 
 
 # Validation
 
-In this section I will be showing the validation techniques used in order to make my project compliant. I have used the W3C HTML5 and CSS3 online validation tools.
+In this section I will be showing the validation techniques used in order to make my project compliant. I have used the W3C HTML5 and CSS3 online validation tools. I have also runned the Lighthouse report from Chrome Developer Tools.
 
 HTML5 Validation -> [Visit Site]( https://validator.w3.org/)
 
 CSS3 Validation -> [Visit Site]( https://jigsaw.w3.org/css-validator/)
+
+### Validation Testing Document -> [Visit Document](testing/validation-testing.md)
+
