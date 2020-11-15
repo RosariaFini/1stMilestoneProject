@@ -1,6 +1,6 @@
 # Rosaria Fini Milestone Project 1 - User Centric Frontend Development
 
-[Click Here To Visit My Project Site]()
+[Click Here To Visit My Project Site](https://rosariafini.github.io/1stMilestoneProject/)
 
 ## Website for a Yoga Studio
 
@@ -33,11 +33,9 @@ This section provide an insight into the UX process. The target audience for DY 
 
 * As a user, I want to know which benefits I will get by buying a product, so I know if the product offer more that its competitors.
 
-* As a user, I want to know how approachable and inclusive is the community I wish to join so I can learn a new discipline from scratch, regardless of my level of fitness, without feeling judged by teacher and fellow members.
+* As a user, I want to know how approachable and inclusive is the community I wish to join so I can learn a new discipline from scratch, regardless of my level of fitness.
 
 * As a user, I want to find a feature that allows me to learn Yoga at my own pace and from anywhere, so it can fit better in my lifestyle.
-
-* As a user, I want to know about the different range of Yoga styles offered so I can feel intrigued to learn maybe only a style in particular and eventually decide to subscribe for that one.
 
 * As a user, I want transparency, I want to be able to know who are the teachers and their experience in advance, so I can develop trust in the brand.
 
@@ -160,4 +158,68 @@ CSS3 Validation -> [Visit Site]( https://jigsaw.w3.org/css-validator/)
 In this section I will be testing my project by going over my User Stories from the UX section and ensure that they all work as intended.
 
 ### UX User Story Testing Document -> [Visit Document](testing/ux-testing.md)
+
+I have tested my project on Google Chrome and Firefox. In both browsers all pages, sections, fonts, images of the project work well as well as its responsiveness. 
+Using Chrome Dev responsive tools whilst programming helped me to simulate different sizes device, including landscape view. 
+
+## Interesting Bugs
+
+While working on the 3rd section of the homepage I was finding difficult to adapt the content to landscape view on smarthphones. Using a media query aimed at adapting the height of the section to smartphones I was able to resolve this problem. After discovering this I could improve the appearance of other sections too!
+
+# Known Issues
+
+Timetable Page - The form which I used just before the timetable (the one that include the Week which the timetable is refering) it is not the desired one. I aimed to use a form which had arrow on the left and right to navigate the wee timeline. Since I used Bootstrap for all my forms I could not find anything like that. 
+
+Timetable Page, Desktop view - when viewed on desktop view the timetable is very basic, I will make it more interactive on a later date as I develop further skills.
+
+# Deployment
+
+## GitHub pages
+
+I could deploy my project by using Github Pages. My project is currently uploaded and publiched on my GitHub.
+I deployed my project by going to the Settings of my GitHub repository, then I have clicked on the GitHub Page section and publiched my site. GitHub informed me that my site is published and gave me a live URL.
+
+Deployed Project -> [Visit Site](https://rosariafini.github.io/1stMilestoneProject/)
+
+# Credits
+
+## Content 
+Here there is a list of all the external URL that helped me in developing my project.
+
+* [Bootstrap Navbar](https://getbootstrap.com/docs/4.5/components/navbar/) 
+* [Bootstrap Grid](https://getbootstrap.com/docs/4.5/layout/grid/)
+* [Bootstrap Button](https://getbootstrap.com/docs/4.5/components/buttons/)
+* [Bootstrap Tables](https://getbootstrap.com/docs/4.5/content/tables/)
+* [Bootstrap Jumbotron](https://getbootstrap.com/docs/4.5/components/jumbotron)
+* [Boorstrap Forms](https://getbootstrap.com/docs/4.5/components/forms/)
+
+* [Google Fonts](https://fonts.google.com/) I used Google Font for my fonts by importing the fonts to my CSS file.
+
+* [Icon-Grow](https://github.com/RosariaFini/Hover/blob/master/css/hover.css) I have consulted this GitHub Page to help me with the coding of the Icon-Grow transiction.
+
+## Media
+
+* Icons – All of the icons used in the project are from Font Awesome CDN which I have included in the head of every HTML webpage.[Visti Site](https://use.fontawesome.com/releases/v5.14.0/css/all.css)
+
+* Hover Transition – The Hover Transition used in the project are from Hover.css CDN which I have included in the head of every HTML webpage. [Visit Site](https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css)
+
+* Images - All images used in the project were taken from Adobe Stock with the Standard Licence:
+Links to the homepage Images:
+  -[Homepage-1stSection](https://stock.adobe.com/uk/search?creator_id=204509948&filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Bis_editorial%5D=all&filters%5Bcontent_type%3Aimage%5D=1&order=relevance&safe_search=1&limit=100&search_page=1&search_type=usertyped&k=yoga&acp=&aco=yoga&get_facets=0&asset_id=317726720)
+  -[Homepage-3rdSection](https://stock.adobe.com/uk/search?creator_id=205813196&filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Bis_editorial%5D=all&filters%5Bcontent_type%3Aimage%5D=1&order=relevance&safe_search=1&k=yoga&is_recent_search=1&search_type=recentsearch&search_page=1&get_facets=0&asset_id=199765075)
+  -[Homepage-5thSection](https://stock.adobe.com/uk/search?creator_id=206726167&filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Bis_editorial%5D=all&filters%5Bcontent_type%3Aimage%5D=1&order=relevance&safe_search=1&k=yoga&is_recent_search=1&search_type=recentsearch&search_page=1&get_facets=0&asset_id=191236639)
+  -[Contact&Timetable-Header](https://stock.adobe.com/uk/search?creator_id=201523842&filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Bis_editorial%5D=all&filters%5Bcontent_type%3Aimage%5D=1&order=relevance&safe_search=1&k=mandala&search_page=1&search_type=usertyped&acp=&aco=mandala&get_facets=0&asset_id=30729072)
+
+## Acknowledgements
+
+I would like to thank Code Institute for the Lessons received so far which have enabled me to learn a list of such valuable skills in a such short period of time, and thinking that this is just the beginning of my learnig journey makes me proud of the choice I made of joining Code Institute.
+
+I would also like to thank the Tutor Team which has always helped me promptly everytime I needed.
+
+Least but not last I would ike to aknowledge my Student Mentor Giuseppe Sorrentino for having given me great advices and for having guided me throughout the development of the Project.
+
+
+
+
+
 

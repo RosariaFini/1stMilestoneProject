@@ -107,7 +107,7 @@
 3. Leave no input field empty, if a field is empty and the send button is clicked, a validation pop-up will appear prompting you to fill in the field. 
 4. At the bottom of the contact form there is a radio botton that will allow the user to subscribe to the newsletter, if the user wish to.
 5. Once all input fields are filled in, press the send button. 
-6. Once the send button is clicked, it will inform the user that the message has been sent successfully.
+
 
 ### Step 2
 ![Valid Form](../screenshots/form.jpg)
@@ -126,7 +126,6 @@
 3. Fill up the form with a valid email.
 4. If the email is invalid and the paper plan icon is clicked, a validation pop-up will appear prompting you to fill the field.
 5. Once the field is filled in, press the paper plane icon.
-6. Once the paper plan icon is clicked, it will infotm the user that the email has been sent successfully.
 
 ### Step 3
 ![Valid Form](../screenshots/news-ok.jpg)
