@@ -25,23 +25,29 @@ The website attracts new members with a call to action at the beginning of the h
 ## User Stories
 This section provide an insight into the UX process. The target audience for DY Projects will be new members of DY, existing members and potential employees.
 
-* As user, I want to be able to know if there is a special offer for me, so that I can compare different offers and finally make a reasoned choice.
+* As a user, I want to be able to find the botton to Join a membership easily, so I don't have to spend too much time going through the site in order to find it.
 
-* As user, I want to see a simple, visual appealing website with catchy calls to action that help me to  discover more about the product I am interested in.
+* As a user, I want to be able to know if there is a special offer for me, so that I can compare different offers and finally make a reasoned choice and sign up to it easily with a click!
 
-* As user, I want to know which benefits I will get by buying a product, so I can be satisfied with my choice.
+* As a user, I want to see a simple, visual appealing website with catchy visual markers that help me to discover more about the product and improve my UX.
 
-* As user, I want to know how approachable and inclusive is the community I wish to join so I can learn a new discipline from scratch, regardless of my previous experience of age without feeling judged by teacher and fellow members.
+* As a user, I want to know which benefits I will get by buying a product, so I know if the product offer more that its competitors.
 
-* As user, I want to find a feature that allow me to learn Yoga at my own pace and from anywhere, so it can fit better in my lifestyle.
+* As a user, I want to know how approachable and inclusive is the community I wish to join so I can learn a new discipline from scratch, regardless of my level of fitness, without feeling judged by teacher and fellow members.
 
-* As user, I want to know about the different range of Yoga styles offered so I can feel intrigued to learn maybe only a style in particular and eventually decide to subscribe for that one.
+* As a user, I want to find a feature that allows me to learn Yoga at my own pace and from anywhere, so it can fit better in my lifestyle.
 
-* As user, I want transparencies, I want to be able to know who are the teachers and their experience in advance, so I can develop trust in the brand.
+* As a user, I want to know about the different range of Yoga styles offered so I can feel intrigued to learn maybe only a style in particular and eventually decide to subscribe for that one.
 
-* As user, I want there to be an easy way to contact the studio and easy way to book the classes, so I don't get demotivated and start looking at competitors.
+* As a user, I want transparency, I want to be able to know who are the teachers and their experience in advance, so I can develop trust in the brand.
 
-* As user, I want to be able to see some social media links, so I can know the brand better and get a close idea of how it would be to join.
+* As a user, I want there to be a comtact form fully functional, so I can get info quicker.
+
+* As a user, I want there to be an easy way to book the classes so I can use my time efficiently.
+
+* As a user, I want to be able to subscibe to the newsletter, so I can receive news and offers.
+
+* As a user, I want to be able to see some social media links, so I can get to know the brand better and get a closer idea of how it would be to join.
 
 ## Wireframes
 
@@ -86,11 +92,15 @@ This section provide an insight into the UX process. The target audience for DY 
 
  * Feature 5 – Allow users to know the people behind the product which helps to develop trust in the brand. A call to action will direct users to the dedicate page.
 
- * Feature 6 – Allow users to pick up missed information by reading a footer section that goes straight to the point. Here the user will be able to read a brief story about the brand, get to know the range of different classes by clicking on the links provided, know the contact info, and finally be able to subscirbe to the newsletter and discover the social pages.  
+ * Feature 6 – Allow users to pick up missed informations by reading a footer section that goes straight to the point. Here the user will be able to read a brief story about the brand, get to know the range of different classes by clicking on the links provided, know the contact info, and finally be able to subscirbe to the newsletter and discover the social pages.  
 
  * Feature 7 – By viewing the contact page the user immediately all the useful information such as conctact info and opening hours, as well as the opportunity to getin touch by filling the form provided.
 
  * Feature 8 - By viewing the timetable page the user will get to know the different range of classes offered and will be able to book by simply clicking the "book" button.
+
+ * Feature 9 – If a user click on the Navbar Brand, it take them back to the homepage.
+
+ * Feature 10 – Hover animations have been used on the Icons to display the features of DY to improve UX.
 
  ### Future Features To Implement
 
@@ -144,4 +154,10 @@ HTML5 Validation -> [Visit Site]( https://validator.w3.org/)
 CSS3 Validation -> [Visit Site]( https://jigsaw.w3.org/css-validator/)
 
 ### Validation Testing Document -> [Visit Document](testing/validation-testing.md)
+
+# Testing
+
+In this section I will be testing my project by going over my User Stories from the UX section and ensure that they all work as intended.
+
+### UX User Story Testing Document -> [Visit Document](testing/ux-testing.md)
 
