@@ -176,8 +176,7 @@ Timetable Page, Desktop view - when viewed on desktop view the timetable is very
 
 ## GitHub pages
 
-I could deploy my project by using Github Pages. My project is currently uploaded and publiched on my GitHub.
-I deployed my project by going to the Settings of my GitHub repository, then I have clicked on the GitHub Page section and publiched my site. GitHub informed me that my site is published and gave me a live URL.
+I have used Github Pages to publish my site. 
 
 Deployed Project -> [Visit Site](https://rosariafini.github.io/1stMilestoneProject/)
 
