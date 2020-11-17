@@ -106,7 +106,7 @@ This section provide an insight into the UX process. The target audience for DY 
  
  * Feature 2 – A floating contact and chat button to be displayed on all pages.
 
- * Feature 3 – Fully development of all pages which the site is provided to make the project completed. 
+ * Feature 3 – Fully development of all pages which the site is provided to make the project completed. The pages are the following: Timetable(Online); Events(Workshops, Retreats); Explore (On-Demand, Gallery, Our Team, Testimonial, Work With Us) and News. 
 
  ## Technologies Used
 
